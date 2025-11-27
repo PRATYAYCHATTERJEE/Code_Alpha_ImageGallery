@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- radios MUST be before the container so the sibling selectors work -->
+  <input type="radio" id="check1" name="photos" checked>
+  <input type="radio" id="check2" name="photos">
+  <input type="radio" id="check3" name="photos">
+  <input type="radio" id="check4" name="photos">
+
+  <div class="container">
+    <h1>MY IMAGE GALLERY</h1>
+
+    <div class="top-content">
+      <h3>photo gallery</h3>
+      <label for="check1">All photos</label>
+      <label for="check2">Family</label>
+      <label for="check3">Sports</label>
+      <label for="check4">Travel</label>
+    </div>
+
+    <div class="photo-gallery">
+
+       <div class="pic family"><img src="family1.jpg"></div>
+       <div class="pic family"><img src="family2.jpg"></div>
+
+       <div class="pic sports"><img src="sports1.jpg"></div>
+
+       <div class="pic family"><img src="family3.jpg"></div>
+
+       <div class="pic travel"><img src="travel1.jpg"></div>
+
+       <div class="pic sports"><img src="sports2.jpg"></div>
+
+       <div class="pic sports"><img src="sports3.jpg"></div>
+
+       <div class="pic family"><img src="family4.jpg"></div>
+
+       <div class="pic travel"><img src="travel2.jpg"></div>
+
+       <div class="pic sports"><img src="sports4.jpg"></div>
+
+       <div class="pic travel"><img src="travel3.jpg"></div>
+       <div class="pic sports"><img src="sports5.jpg"></div>
+
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
