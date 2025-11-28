@@ -52,7 +52,7 @@ Filter style improvements
 🛠 Technologies Used
 | Component   | Technology           |
 | ----------- | -------------------- |
-| Interface   | HTML5, CSS3          |
+| Interface   | HTML, CSS            |
 | Layout      | CSS Grid             |
 | Interaction | JavaScript           |
 | Images      | JPG / PNG            |
